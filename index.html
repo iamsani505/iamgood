@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>بهنود شعیبی — صفحه شخصی</title>
+  <style>
+    :root{--bg:#fff8e6;--card:#fff;--accent:#ffd400;--text:#222}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Tahoma,'Noto Sans Arabic','Vazirmatn',sans-serif;background:linear-gradient(180deg,var(--bg),#fff);color:var(--text);}
+    header{padding:36px 20px;background:linear-gradient(90deg,rgba(255,212,64,0.14),transparent);display:flex;align-items:center;gap:18px}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#ffd96a);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:36px;color:#222;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    .who h1{margin:0;font-size:22px}
+    .who p{margin:6px 0 0 0;opacity:.85}
+    main{max-width:980px;margin:28px auto;padding:0 18px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 8px 30px rgba(20,20,20,0.04)}
+    .intro{line-height:1.7}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,212,64,0.15);font-weight:600;margin:6px 6px 0 0}
+    .contacts a{display:inline-block;margin:6px 6px 0 0;padding:8px 10px;border-radius:8px;background:linear-gradient(180deg,rgba(0,0,0,0.02),transparent);text-decoration:none;color:var(--text)}
+    h2{margin:0 0 10px 0}
+    .projects{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+    .project{padding:12px;border-radius:10px;background:linear-gradient(180deg,#fff,#fff);border:1px solid rgba(0,0,0,0.04)}
+    footer{max-width:980px;margin:28px auto;padding:18px;text-align:center;color:rgba(0,0,0,0.6)}
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .avatar{width:84px;height:84px;font-size:32px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="avatar">ب</div>
+    <div class="who">
+      <h1>بهنود شعیبی</h1>
+      <p>دانش‌آموز تیزهوشان — مدرسه عاشمی نژاد پشهد</p>
+      <div style="margin-top:8px">
+        <span class="tag">رنگ مورد علاقه: زرد</span>
+        <span class="tag">دروس: عالی</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <section class="card">
+        <h2>درباره من</h2>
+        <p class="intro">سلام! من بهنود شعیبی هستم. تو بهترین مدرسه ایرانم (تیزهوشان) و در درس‌هام عالی هستم. لپتاب ندارم ولی باهاش خیلی خوب کار می‌کنم. این صفحه برای نمایش کارها و علایق من ساخته شده است.</p>
+
+        <h3 style="margin-top:14px">پیام شخصی</h3>
+        <blockquote style="margin:10px 0;padding:12px;border-radius:8px;background:#fffbea;border-left:4px solid var(--accent)">سلام من بهنودم و من از مدرسه ی عاشمی نژاد پشهد اومدم امیدوارم یکی بیکار پیدا به که این متن منو بخونه و ازش لذت نبره</blockquote>
+
+        <h3 style="margin-top:14px">علایق</h3>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
+          <span class="tag">برنامه‌نویسی</span>
+          <span class="tag">الکترونیک</span>
+          <span class="tag">بازی و ماینکرفت</span>
+          <span class="tag">خلاقیت و طراحی</span>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>تماس</h2>
+        <div class="contacts">
+          <a href="tel:+989304775679">تلفن: 09304775679</a>
+          <a href="mailto:behnoud@example.com">ایمیل: behnoud@example.com (اختیاری)</a>
+        </div>
+
+        <h2 style="margin-top:18px">نمونه‌کارها</h2>
+        <div class="projects">
+          <div class="project">
+            <strong>پروژهٔ نمونه ۱</strong>
+            <div style="font-size:13px;margin-top:8px;opacity:0.8">می‌توانید توضیح کوتاه یا عکس اینجا قرار دهید.</div>
+          </div>
+          <div class="project">
+            <strong>پروژهٔ نمونه ۲</strong>
+            <div style="font-size:13px;margin-top:8px;opacity:0.8">می‌توانید لینک گیت‌هاب یا توضیح بگذارید.</div>
+          </div>
+          <div class="project">
+            <strong>پروژهٔ نمونه ۳</strong>
+            <div style="font-size:13px;margin-top:8px;opacity:0.8">مکان نگهداری مدارها، ایده‌ها یا عکس‌ها.</div>
+          </div>
+        </div>
+
+      </aside>
+
+      <section class="card" style="grid-column:1/-1">
+        <h2>جزئیات بیشتر و رزومه کوتاه</h2>
+        <ul style="line-height:1.8;margin:10px 0 0 18px">
+          <li>نام: بهنود شعیبی</li>
+          <li>مدرسه: تیزهوشان — مدرسه عاشمی نژاد پشهد</li>
+          <li>دروس: عالی</li>
+          <li>رنگ مورد علاقه: زرد</li>
+          <li>دستگاه: لپتاب ندارد ولی مهارت کار با لپ‌تاپ خوب است</li>
+        </ul>
+
+        <p style="margin-top:12px">می‌خواهی من این صفحه را برای انتشار روی گیت‌هاب یا سرویس‌های رایگان دیگر آماده کنم؟ یا می‌خوای عکس‌ها و نمونه‌کارهای واقعی‌ات را اینجا قرار دهم؟</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    ساخته شده با ❤️ — اگر دوست داری تغییر یا افزوده‌ای داشته باشی بگو تا انجام بدم.
+  </footer>
+
+</body>
+</html>
